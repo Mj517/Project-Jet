@@ -8,7 +8,7 @@ public class EnemyMovement : MonoBehaviour
     public Vector3 enemy;
     public Quaternion enemyR;
     public Rigidbody2D rb;
-    public float thrust = 1f;
+    public float thrust = 8f;
     
     
 
@@ -25,13 +25,16 @@ public class EnemyMovement : MonoBehaviour
     {
         if (other.CompareTag("InactiveZone"))
         {
-            transform.LookAt(Player);
+            Vector3 dir = Player.position - transform.position;
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg + 270;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
 
         }
 
         if (other.CompareTag("ActiveZone"))
         {
-            transform.position += transform.forward * thrust * Time.deltaTime;
+            transform.position += transform.up  * thrust * Time.deltaTime;
             
         }
 
@@ -40,12 +43,7 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemy = transform.position;
-        enemy.z = 0;
-        transform.position = enemy;
-        enemyR = transform.rotation;
-        enemyR = new Quaternion(0, 0, 0, 0);
-        transform.rotation = enemyR;
+       
 
 
       

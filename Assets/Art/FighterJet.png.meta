@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 28d91f5398ad8e943abc1aea0f34bae0
+guid: 0ebb294d28ccacf4987c02a790ece514
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2448455803361679028
-    second: FighterJet_0
+      213: -5378625587361114969
+    second: FighterJet 1_0
   - first:
-      213: -1134462921993635570
-    second: FighterJet_1
+      213: -3590485921139666028
+    second: FighterJet 1_1
   - first:
-      213: -8787444362729047016
-    second: FighterJet_2
+      213: 3579783902964983957
+    second: FighterJet 1_2
   - first:
-      213: -6294731220289615946
-    second: FighterJet_3
+      213: 4635899255142014186
+    second: FighterJet 1_3
   - first:
-      213: 871442920730769887
-    second: FighterJet_4
+      213: 3600690304436278234
+    second: FighterJet 1_4
   - first:
-      213: 6963559329374326816
-    second: FighterJet_5
+      213: 1808363616268402971
+    second: FighterJet 1_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -59,7 +59,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -78,36 +78,36 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 512
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
+    compressionQuality: 100
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 512
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
+    compressionQuality: 100
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 512
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
+    compressionQuality: 100
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FighterJet_0
+      name: FighterJet 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,41 +124,41 @@ TextureImporter:
         width: 15
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b6dd97a499aaf120800000000000000
-      internalID: 2448455803361679028
+      spriteID: 7a4938586884b55b0800000000000000
+      internalID: -5378625587361114969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FighterJet_1
+      name: FighterJet 1_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 44
-        width: 14
+        width: 15
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e09b7bbabf39140f0800000000000000
-      internalID: -1134462921993635570
+      spriteID: 493dd63f3180c2ec0800000000000000
+      internalID: -3590485921139666028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FighterJet_2
+      name: FighterJet 1_2
       rect:
         serializedVersion: 2
         x: 1
@@ -166,20 +166,20 @@ TextureImporter:
         width: 13
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81cb604f8e9bc0680800000000000000
-      internalID: -8787444362729047016
+      spriteID: 598a3e44e72fda130800000000000000
+      internalID: 3579783902964983957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FighterJet_3
+      name: FighterJet 1_3
       rect:
         serializedVersion: 2
         x: 18
@@ -187,20 +187,20 @@ TextureImporter:
         width: 13
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b7831a5e4f94a8a0800000000000000
-      internalID: -6294731220289615946
+      spriteID: aecdc3d7fc5065040800000000000000
+      internalID: 4635899255142014186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FighterJet_4
+      name: FighterJet 1_4
       rect:
         serializedVersion: 2
         x: 1
@@ -208,20 +208,20 @@ TextureImporter:
         width: 13
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd9bf2428bcf71c00800000000000000
-      internalID: 871442920730769887
+      spriteID: ad31e1e21c838f130800000000000000
+      internalID: 3600690304436278234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FighterJet_5
+      name: FighterJet 1_5
       rect:
         serializedVersion: 2
         x: 18
@@ -229,14 +229,14 @@ TextureImporter:
         width: 13
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 020d6b7c05883a060800000000000000
-      internalID: 6963559329374326816
+      spriteID: b114b6cb029981910800000000000000
+      internalID: 1808363616268402971
       vertices: []
       indices: 
       edges: []
